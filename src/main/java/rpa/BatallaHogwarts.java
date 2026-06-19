@@ -17,11 +17,14 @@ public class BatallaHogwarts {
 
         if (danioMagBueno == danioMagoMalo) {
             resultadoDelEnfrentemiento = "Empate de ataque!";
+            magoAsciiEmpate();
         } else {
             if (danioMagBueno > danioMagoMalo) {
                 resultadoDelEnfrentemiento = "Ataque efectivo!";
+                magoAsciiGanador();
             } else {
                 resultadoDelEnfrentemiento = "Ataque enemigo superior!";
+                magoAsciiPerdedor();
             }
         }
 
@@ -37,7 +40,47 @@ public class BatallaHogwarts {
         System.out.println("  |mrf| .  \\\\");
         System.out.println(" .'. ,\\_____'.");
     }
- 
+    
+    public static void magoAsciiEmpate() {
+    System.out.println("___ __ ._`.*.'_._ ____ ____");
+    System.out.println(" . +  * .o   o.* `.`. +.    .");
+    System.out.println("*  . ' ' |\\^/|  `. * .  * `");
+    System.out.println("         \\\\V/ . +");
+    System.out.println("          /_\\\\  .`. ");
+    System.out.println("======== _/ \\_ =====::.*");
+}
+
+    public static void magoAsciiPerdedor() {
+    System.out.println("      |\\\\");
+    System.out.println("     | \\\\");
+    System.out.println("     |(*\\\\");
+    System.out.println("     |___\\\\");
+    System.out.println("     (((\"\'\\\\");
+    System.out.println("     ((c'7')");
+    System.out.println("     ((((^))");
+    System.out.println("      )))(((");
+    System.out.println("      (((())");
+    System.out.println("       )))(");
+    System.out.println("        (())");
+    System.out.println("         ))");
+}
+
+public static void magoAsciiGanador() {
+    System.out.println("      |\\\\          .(' *) ' .");
+    System.out.println("     | \\\\        ' .*) .'*");
+    System.out.println("     |(*\\\\      .*(// .*) .");
+    System.out.println("     |___\\\\       // (. '*");
+    System.out.println("     (((\"\'\\\\     // '  * .");
+    System.out.println("     ((c'7')   /\\)");
+    System.out.println("     ((((^))  /  \\\\");
+    System.out.println("   .-')))(((-'   /");
+    System.out.println("      (((()) __/'");
+    System.out.println("       )))( |");
+    System.out.println("        (())");
+    System.out.println("         ))");
+}
+
+
     public static void main (String[] args){
         Scanner sc = new Scanner(System.in);
         int danioVol, poder;

@@ -145,7 +145,7 @@ public class BatallaHogwarts {
         System.out.println("\n");
 
         if (hpMago <= 0 && hpVol <= 0) {
-            System.out.println("Empate!");
+            System.out.println(YLW+"Empate!");
         } else if (hpMago > 0) {
             System.out.println(CYN + "El mago " + nombreMago + " ha derrotado a Voldemort!");
         } else {

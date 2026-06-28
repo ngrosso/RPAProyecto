@@ -32,13 +32,13 @@ public class BatallaHogwarts {
     }
 
     public static void magoAscii() {
-        System.out.println("      __/\\__");
+        System.out.println(BLU+"      __/\\__");
         System.out.println(". _   \\\\''//");
         System.out.println("-( )-/_||_\\");
         System.out.println(" .'. \\_()_/");
         System.out.println("  |   | . \\\\");
         System.out.println("  |mrf| .  \\\\");
-        System.out.println(" .'. ,\\_____'.");
+        System.out.println(" .'. ,\\_____'."+RST);
     }
 
     public static void magoAsciiEmpate() {

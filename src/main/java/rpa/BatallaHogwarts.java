@@ -87,7 +87,6 @@ public class BatallaHogwarts {
     public static final String GRN = "\u001B[32m";
     public static final String PPL = "\u001B[35m";
     public static final String CYN = "\u001B[36m";
-    public static final String WTE = "\u001B[37m";
     public static final String REDBG = "\u001B[41m";
 
     public static void main(String[] args) {
